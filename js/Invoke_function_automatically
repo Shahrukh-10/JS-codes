@@ -1,0 +1,19 @@
+(
+	function () {
+		var names=["yakov","john","joe","srk","abd","adil","yasar"];
+
+		for(var i=0; i< names.length; i++)
+		{
+			var fistletter = names[i].charAt(0).toLowerCase();
+
+			if(fistletter === 'j' || fistletter=== 's')
+			{
+					console.log("hi "+names[i]);
+			}
+			else
+			{
+					console.log("hello "+names[i]);
+			}
+		}
+	}
+)();
